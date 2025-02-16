@@ -21,3 +21,15 @@ INSERT INTO std
 ('Aliza Rafiq','alizarafiq@gmail.com',22,'Hydrabad'),
 ('Aliza Anwar','alizaanwar@gmail.com',21,'Karachi'),
 ('Huma Riaz','huma@gmail.com',20,'Karachi')
+
+SELECT * FROM std;
+
+SELECT * FROM std where mycity = 'Karachi';
+
+SELECT * FROM std where myage > 20;
+
+SELECT * FROM std where mycity = 'Karachi' AND myage > 20;
+SELECT * FROM std where mycity = 'Karachi' AND myage >= 20;
+
+
+
