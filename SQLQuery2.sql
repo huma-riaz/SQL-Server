@@ -31,5 +31,23 @@ SELECT * FROM std where myage > 20;
 SELECT * FROM std where mycity = 'Karachi' AND myage > 20;
 SELECT * FROM std where mycity = 'Karachi' AND myage >= 20;
 
+SELECT * FROM std where mycity = 'Quetta' OR myage < 20;
 
+SELECT * FROM std where mycity Not in ('Karachi');
+
+SELECT * FROM std where mycity IN ('Quetta', 'Hyderabad');
+
+SELECT * FROM std where mycity NOT IN ('Quetta', 'Hyderabad');
+
+SELECT * FROM std where myname LIKE '%b';
+
+SELECT * FROM std where myname LIKE 'b%';
+
+SELECT * FROM std where myname LIKE '__s%';
+
+SELECT * FROM std where myname LIKE '%a__';
+
+SELECT * FROM std where myage BETWEEN 20 AND 22;
+
+SELECT * FROM std;
 
