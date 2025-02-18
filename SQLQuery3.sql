@@ -28,3 +28,6 @@ DELETE FROM courses where id = 2;
 SELECT u_name AS std_name FROM student;
 
 JOIN courses on courses.id = student.course;
+
+SELECT * FROM courses;
+SELECT * FROM student;
