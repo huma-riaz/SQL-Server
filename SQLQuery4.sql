@@ -24,9 +24,9 @@ SELECT * FROM student;
 
 DELETE FROM courses where id=4;
 
+SELECT x_name as StdName from student;
 
-
-
+JOIN courses on courses.id = student.course;
 
 
 
