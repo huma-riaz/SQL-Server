@@ -20,4 +20,10 @@ SELECT count(mycity) FROM std GROUP BY mycity;
 
 SELECT count(mycity) as MyCity FROM std GROUP BY mycity; 
 
+SELECT * FROM std ORDER BY myname;
+SELECT * FROM std ORDER BY myname ASC;
 
+SELECT * FROM std ORDER BY myname DESC;
+
+SELECT * FROM std ORDER BY myage;
+SELECT * FROM std ORDER BY myage DESC;
