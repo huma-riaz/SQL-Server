@@ -44,6 +44,9 @@ SELECT * FROM FirstCustomers c
 JOIN SecondOrders o ON c.CustomerID = o.CustomerID;
 
 
-
+SELECT c.CustomerName, o.OrderDate
+FROM FirstCustomers c
+JOIN SecondOrders o ON c.CustomerID = o.CustomerID
+WHERE o.TotalAmount > 100;
 
 
