@@ -21,6 +21,7 @@ CREATE TABLE SecondOrders (
 
 INSERT INTO FirstCustomers (CustomerID, CustomerName, Email) 
 VALUES 
+(5, 'Ali', 'ali@gmail.com.com'),
 (1, 'Huma', 'riazhuma@gmail.com.com'),
 (2, 'Hassan', 'hassanriaz@gmail.com.com'),
 (3, 'Bilal', '.bilalriaz@gmail.com'),
@@ -31,12 +32,13 @@ SELECT * FROM FirstCustomers;
 
 INSERT INTO SecondOrders (OrderID, CustomerID, OrderDate, TotalAmount) 
 VALUES 
-(16, 2, '2025-03-11', 40),
+(17, 5, '2025-03-11', 60),
 (11, 1, '2025-03-03', 1500),
 (12, 2, '2025-03-08', 8000),
 (13, 3, '2025-03-09', 1200),
 (14, 4, '2025-03-12', 4500),
-(15, 1, '2025-03-15', 1600);
+(15, 1, '2025-03-15', 1600),
+(16, 2, '2025-03-11', 40);
 
 SELECT * FROM SecondOrders;
 
