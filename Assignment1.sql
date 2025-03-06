@@ -31,6 +31,7 @@ SELECT * FROM FirstCustomers;
 
 INSERT INTO SecondOrders (OrderID, CustomerID, OrderDate, TotalAmount) 
 VALUES 
+(16, 2, '2025-03-11', 40),
 (11, 1, '2025-03-03', 1500),
 (12, 2, '2025-03-08', 8000),
 (13, 3, '2025-03-09', 1200),
